@@ -13,7 +13,7 @@ const passentage = document.getElementById('passentage');
 //feching data from json
 async function getQuestions() {
   try {
-    let response = await fetch('http://localhost:8158/questions.json');
+    let response = await fetch('/questions.json');
     let data = await response.json();
     let allQuestion = data.questions;
     questionList(allQuestion)
