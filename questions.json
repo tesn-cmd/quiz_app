@@ -1,0 +1,116 @@
+{
+  "questions":[{
+    "question":"what is 2 * 5?",
+    "answers":[{
+      "text":2,"correct":false
+    },
+      {
+        "text":12,"correct":false
+      },
+      {
+        "text":8,"correct":false
+      },
+      {
+        "text":10,"correct":true
+      }]
+  },
+    {
+      "question":"who is the best youtuber?",
+      "answers":[{
+        "text":"Traversy Media","correct":true
+      },
+        {
+          "text":"Dev Ed","correct":true
+        },
+        {
+          "text":"WebDev Simlyfied","correct":true
+        },
+        {
+          "text":"Keith Galli","correct":true
+        }]
+    },
+    {
+      "question":"what is JavaScript?",
+      "answers":[{
+        "text":"Football team","correct":false
+      },
+        {
+          "text":"styling language","correct":false
+        },
+        {
+          "text":"Programming language","correct":true
+        },
+        {
+          "text":"Runtime","correct":false
+        }]
+    },
+    {
+      "question":"Which of the following is an inline element?",
+      "answers":[{
+        "text":"div","correct":false
+      },
+        {
+          "text":"span","correct":true
+        },
+        {
+          "text":"main","correct":false
+        },
+        {
+          "text":"css","correct":false
+        }]
+    },
+    {
+      "question":"which of the following is a JavaScript framework?",
+      "answers":[{
+        "text":"NodeJS","correct":false
+      },
+        {
+          "text":"Vue","correct":true
+        },
+        {
+          "text":"mongoDB","correct":false
+        },
+        {
+          "text":"react","correct":false
+        }]
+    },
+    {
+      "question":"which of the following is a primitive data type?",
+      "answers":[{
+        "text":"function(){}","correct":false
+      },
+        {
+          "text":"'string'","correct":true
+        },
+        {
+          "text":"array[]","correct":false
+        },
+        {
+          "text":"object{}","correct":false
+        }]
+    },
+    {
+      "question":"which of the following is not a high order function?",
+      "answers":[{
+        "text":"class","correct":true
+      },
+        {
+          "text":"forEach","correct":false
+        },
+        {
+          "text":"map","correct":false
+        },
+        {
+          "text":"reduce","correct":false
+        }]
+    },
+    {
+      "question":"what is the output of 2==='2'?",
+      "answers":[{
+        "text":"true","correct":false
+      },
+        {
+          "text":"false","correct":true
+        }]
+    }]
+}
