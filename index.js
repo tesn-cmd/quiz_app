@@ -13,7 +13,7 @@ const passentage = document.getElementById('passentage');
 //feching data from json
 async function getQuestions() {
   try {
-    let response = await loadJSONAsync('https://tesn-cmd.github.io/quiz_app/questions.json');
+    let response = await fetch('https://tesn-cmd.github.io/quiz_app/questions.json');
     let data = response.json();
     let allQuestion = data.questions;
     questionList(allQuestion)
